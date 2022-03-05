@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "description": "kickstartDS blocks",
+  "workspaces": [
+    "packages/blocks/*"
+  ]
+}
