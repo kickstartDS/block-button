@@ -22,8 +22,8 @@
     "schema": "typescript-json-schema tsconfig.json AppProps --required true --out dist/block-schema.json"
   },
   "dependencies": {
-    "@kickstartds/base": "^1.5.1",
-    "blockprotocol": "0.0.6"
+    "@kickstartds/base": "^1.6.0-next.10",
+    "blockprotocol": "^0.0.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.0",
