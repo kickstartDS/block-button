@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@kickstartds/base": "^1.6.0-next.10",
-    "blockprotocol": "^0.0.7"
+    "blockprotocol": "0.0.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.0",
@@ -41,7 +41,7 @@
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.0",
     "html-webpack-plugin": "^5.5.0",
-    "mock-block-dock": "0.0.5",
+    "mock-block-dock": "0.0.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "regenerator-runtime": "^0.13.9",

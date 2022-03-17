@@ -1273,16 +1273,7 @@
   resolved "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react@^17.0.38":
-  version "17.0.39"
-  resolved "https://registry.npmjs.org/@types/react/-/react-17.0.39.tgz#d0f4cde092502a6db00a1cded6e6bf2abb7633ce"
-  integrity sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^17.0.39":
+"@types/react@^17.0.38", "@types/react@^17.0.39":
   version "17.0.40"
   resolved "https://registry.npmjs.org/@types/react/-/react-17.0.40.tgz#dc010cee6254d5239a138083f3799a16638e6bad"
   integrity sha512-UrXhD/JyLH+W70nNSufXqMZNuUD2cXHu6UjCllC6pmOQgBX4SGXOH8fjRka0O0Ee0HrFxapDD8Bwn81Kmiz6jQ==
@@ -1695,7 +1686,7 @@ blockprotocol@0.0.6:
   dependencies:
     "@types/react" "^17.0.38"
 
-blockprotocol@^0.0.7:
+blockprotocol@0.0.7:
   version "0.0.7"
   resolved "https://registry.npmjs.org/blockprotocol/-/blockprotocol-0.0.7.tgz#e9f36e6e9c468a8611075a1f6d93b9af22711f19"
   integrity sha512-8Hapdz1jaBoTYZqd2m9MY/+NAYCOGhMq0zR5t7Q3F8LjpKTP1DmAj6LayOIJFYVzQCYAbFouI45GhHyWmtRRnA==
@@ -3679,12 +3670,13 @@ mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.5"
 
-mock-block-dock@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/mock-block-dock/-/mock-block-dock-0.0.5.tgz#c1343d67a19c67e576569523fc26a8889470a845"
-  integrity sha512-dxmOQ7V2buEtZ0ggiCOCJgKbvPw3pabml2lu1BPtte8umEK+FhA8WHxfTZrWnEnx4NEZp9kN0sbMVfpsIka5kA==
+mock-block-dock@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/mock-block-dock/-/mock-block-dock-0.0.6.tgz#86dbc984fffb67e0ae4d442bf716288350d9bf61"
+  integrity sha512-bJNMflnr0wFSzMsV135wRFhkVyFLm76Su267EAl4R+oqb4MbtHnypP8Z/zOOhF3N1+op7COAZhWwk/nsRw4nIQ==
   dependencies:
     blockprotocol "0.0.6"
+    lodash "^4.17.21"
     uuid "^8.3.2"
 
 mri@^1.1.0:
